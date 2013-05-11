@@ -1,4 +1,4 @@
-Stylesheets.js
+spreadsheet.js
 ===
 
 Based on the code found here: [georgenava.appspot.com/demo/spreadsheet.html](http://georgenava.appspot.com/demo/spreadsheet.html)
