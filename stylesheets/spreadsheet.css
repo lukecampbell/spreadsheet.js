@@ -1,0 +1,102 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 4em;
+}
+
+.center {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    margin-top: 2em;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+table th {
+    border: 1px solid #ccc;
+    background: #eee;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    padding: 4px 10px;
+}
+
+table td {
+    border: 1px solid #ccc;
+    padding: 4px 10px;
+}
+
+table:focus {
+    outline: none;
+}
+
+table td:focus {
+    outline: 1px solid #08F;
+}
+
+table td:active {
+}
+
+td.focus {
+    border: 2px solid #08c;
+}
+
+.l1 {
+    padding-left: 10px;
+}
+
+.l2 {
+    padding-left: 30px;
+}
+
+.l3 {
+    padding-left: 50px;
+}
+
+.t1 td {
+    font-weight: 700;
+    background: #e8e8e8;
+    border-top: 2px solid #333;
+}
+
+.s0 td {
+    font-weight: 700;
+    background: #eee;
+    padding-left: 10px;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+}
+
+.s1 td {
+    font-weight: 700;
+    background: #e8e8e8;
+}
+
+.t2 td,.s2 td {
+    font-weight: 700;
+    background: #f6f6f6;
+}
+
+.t3 td,.s3 td {
+    font-weight: 700;
+    background: #fff;
+}
+
+table td:nth-child(1),table td:nth-child(2) {
+    text-align: left;
+}
+
+table td:nth-child(3),table td:nth-child(4),table td:nth-child(5) {
+    text-align: right;
+}
