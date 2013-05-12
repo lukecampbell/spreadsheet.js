@@ -3,8 +3,9 @@
 <head>
 <meta charset="utf-8">
 <title>Spreadsheet</title>
-<link rel="stylesheet" href="/spreadsheet.css"/>
-<script src="spreadsheet.js"></script>
+<link rel="stylesheet" href="/stylesheets/spreadsheet.css"/>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="/javascripts/spreadsheet.js"></script>
 </head>
 <body>
 <h1 class="center">Title</h1>
@@ -76,7 +77,7 @@
 </tr>
 </table>
 <script type="text/javascript">
-    main()
+    var spreadsheet = new Spreadsheet(document);
 </script>
 </body>
 </html>
